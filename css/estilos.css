@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+/* HEADER, NAV */
+header{    
+    position: fixed;
+    top: 0%; left: 0%;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 2rem 12%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contenedor__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .menu{
+    display:flex;
+    font-size: 16px;
+    margin-left: 2rem;
+}
+
+.nav__items a{
+    margin: 15px;
+    color: #000000;
+}
+
+.nav__items a:hover{
+    margin: 15px;
+    color: #ff0000;
+}
+
+header .logo{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #C84B31;
+}
+
+header .logo span{
+    color: #346751;
+}
+
+/* TERMINA HEADER, NAV */
+
+/* SECCIONES, INICIO, ACERCADE, PRODUCTOS, ETC*/
+
+body{
+    background-color: #f0f0f0;
+}
+
+
+.contenido__inicio{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.contenido__inicio h3{
+    font-size: 5rem;
+}
+
+.contenido__inicio p{
+    font-size: 2rem;
+}
+
+.hero-button{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+section .bg__imagen{
+    width: 100%;
+    height: 960px;
+    background-image: linear-gradient(#1616168c, #16161634), url(../img/BANNER.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.separador{
+    background-color: #161616;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 4px;
+    border: none;
+}
+
+.box__quienes{
+    padding: 2rem 12px;
+    margin-top: 100px;
+    margin-left: 180px;
+    display: inline-block;
+
+}
+.quienes_somos a{
+    font-size: 3rem;
+    padding: 2rem 12px;
+    color: #000000;
+}
+
+.quienesSomos__contenedor p{
+    padding: 2rem 12px;
+    font-size: 1.5rem;
+}
+
+.que_hacemos a{
+    font-size: 3rem;
+    padding: 2rem 12px;
+    color: #000000;
+}
+
+.queHacemos_contenedor{
+    padding: 2rem 12px;
+    font-size: 1.5rem;
+}
+
+.box__hacemos{
+    padding: 2rem 12px;
+    margin-left: 180px;
+    display: inline-block;
+}
+
+.queHacemos__contenedor p{
+    padding: 2rem 12px;
+    font-size: 1.5rem;
+}
+
+.nuestro_compromiso a{
+    font-size: 3rem;
+    padding: 2rem 12px;
+    color: #000000;
+}
+
+.box__compromiso{
+    padding: 2rem 12px;
+    margin-left: 180px;
+    display: inline-block;
+}
+
+.nuestroCompromiso__contenedor p{
+    padding: 2rem 12px;
+    font-size: 1.5rem;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    padding: 20px 0px 0px;
+    background-color: #161616;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 2000px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box__footer h2{
+    margin-bottom: 9px;
+    color: #f0f0f0;
+    font-weight: 600;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+
+}
+
+.box__footer a .far{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.box__footer a .fas{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.box__copyright{
+    max-width: 2000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+.box__copyright p{ 
+    font-size: 12px;
+    color:rgb(255, 255, 255) ;
+}
+
+.box__copyright hr{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
