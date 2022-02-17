@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,192 +11,61 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="contenedor__header">
-        <div class="header__logo">   
-            <a href="" class="logo"><span>Service</span>Vial</a>
-        </div>
-        <nav class="backgroundNav">
-            <ul class="menu">
-                <li class="nav__items"><a href="#inicio">INICIO</a></li>
-                <li class="nav__items"><a href="#acercade">ACERCA DE</a></li>
-                <li class="nav__items"><a href="#productos">PRODUCTOS</a></li>
-                <li class="nav__items"><a href="#obras">OBRAS</a></li>
-                <li class="nav__items"><a href="#contactos">CONTACTO</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="./LOGO_SERV.png" alt="" width="150" height="74" class="d-inline-block align-text-top">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Productos y Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Obras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     <main>
-        <section class="inicio" id="inicio">
-            <div class="bg__imagen"></div>
-            <div class="contenido__inicio">
-                <h3>Service Vial desde 1998.</h3>
-                <p>Observa nuestras propuestas</p>
-                <a href="#acercade" class="hero-button">Visita nuestra pagina para saber mas</a>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="container-fluid">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </section>
-        <hr class="separador">
-        <section class="Acercade" id="acercade">
-            <div class="box__quienes">
-                <div class="quienes_somos">
-                    <a href="#">Quienes somos?</a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Inicio/FONDO-TERRONE1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="h5__inicio">SERVICE VIAL DESDE 1998</h5>
+                  <p class="p__inicio">Some representative placeholder content for the first slide.</p>
                 </div>
-                <div class="quienesSomos__contenedor">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dignissimos labore, dicta ipsam suscipit inventore sunt molestiae officiis, facere quisquam similique autem dolore laudantium facilis repudiandae beatae quidem officia eius aperiam est animi quam quos. Sunt perspiciatis alias saepe magnam deserunt quam, esse iure iste. Sint id delectus incidunt hic, suscipit voluptatum ullam ex animi, deserunt neque sunt excepturi. Vel amet aperiam vero dignissimos sequi veritatis, sint culpa enim porro facilis possimus, maiores nemo blanditiis deserunt nam sed cum! Ipsum obcaecati corrupti porro a autem harum dolor iure velit doloribus adipisci eos impedit magni, exercitationem unde voluptatem! Tempora, vel natus!</p>
-                </div>
-            </div>
+              </div>
 
-            <div class="box__hacemos">
-                <div class="que_hacemos">
-                    <a href="">Que hacemos?</a>
-                </div>
-                    <div class="queHacemos__contenedor">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat aperiam ipsam voluptate aliquam nam. Dolorem quam officia eius itaque voluptatum, optio fugiat, voluptas esse, a veritatis placeat aspernatur quasi tempora voluptates laudantium autem? Similique laborum tempore facere fugit? Eligendi quis sit, aperiam dignissimos obcaecati sunt iusto velit fuga itaque nobis praesentium provident est esse libero quidem possimus veritatis excepturi vel repellat reiciendis eos ea. Officia expedita laborum facilis atque provident nulla maxime ullam dolorum aliquid, iusto tempora accusamus dolor delectus architecto itaque voluptas accusantium veritatis eligendi enim maiores voluptate! Quia a ea doloribus, officiis optio totam! Architecto, possimus labore?</p> 
-                    </div>
             </div>
-
-            <div class="box__compromiso">
-                <div class="nuestro_compromiso">
-                    <a href="#">Nuestro compromiso.</a>
-                </div>
-                <div class="nuestroCompromiso__contenedor">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis consequatur quis ex reprehenderit. Porro dolore velit iure! Perspiciatis placeat obcaecati voluptates, maxime id ducimus quia iure adipisci. Doloremque laudantium sequi saepe non aut, dolore ducimus excepturi nisi, quis ad omnis incidunt repellat officia enim similique rerum corporis commodi facere magni. Nobis hic maxime animi deleniti? Maxime, temporibus officia. Necessitatibus quas sapiente qui tenetur placeat eius. Error quibusdam aliquam et quae aut saepe ex magni reprehenderit quos expedita impedit, perferendis quis quia laborum repellat ad labore molestiae quam nemo tempore amet aperiam. Suscipit maxime reiciendis asperiores mollitia voluptatum porro voluptate?
-                    </p>
-                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
             </div>
-            
-        </section>
-        <section class="productos" id="productos">
-            <div class="content_wrapper">
-                <a href="">Todos los productos</a>
-            </div>
-            <div class="contenedor__productos">
-                <p>Categoria de productos</p>
-                <ul class="filtrador__lista">
-                    <li class="list__item"><a href="">Defensas</a></li>
-                    <li class="list__item"><a href="">Drenajes</a></li>
-                    <li class="list__item"><a href="">Agro</a></li>
-                    <li class="list__item"><a href="">Señalización vertical</a></li>
-                </ul>
-                <div class="contenedor__resultados">
-                    <ul class="lista__resultados">
-                        <li class="list__item">
-                            <div class="carta-producto">
-                                <div class="cartaproducto__imagen">
-                                    <img src="https://www.tubosarg.com.ar/images/tasavial-defensas-camineras-placa.jpg" alt=""></div>
-                               <h4>
-                                  <a href="" class="cartaproducto__titulo">Defensas Viales</a> 
-                               </h4>
-                               <p>Descripcion del producto</p> 
-                            </div>
-                        </li>
-                        <li class="list__item">
-                            <div class="carta-producto">
-                                <div class="cartaproducto__imagen">
-                                    <img src="https://blog.structuralia.com/hs-fs/hubfs/drenaje-transversal.jpg?width=1024&name=drenaje-transversal.jpg" alt=""></div>
-                               <h4>
-                                  <a href="" class="cartaproducto__titulo">Drenajes</a> 
-                               </h4>
-                               <p>Descripcion del producto</p>
-                            </div>
-                        </li>
-                        <li class="list__item">
-                            <div class="carta-producto">
-                                <div class="cartaproducto__imagen">
-                                    <img src="https://fotos.perfil.com/2021/10/02/trim/640/360/20211003campoagrocedocg-1238906.jpg" alt=""></div>
-                               <h4>
-                                  <a href="" class="cartaproducto__titulo">Agro</a> 
-                               </h4>
-                               <p>Descripcion del producto</p>
-                            </div> 
-                        </li>
-                        <li class="list__item">
-                            <div class="carta-producto">
-                                <div class="cartaproducto__imagen">
-                                    <img src="http://www.hlserviciosintegrales.com/wp-content/uploads/2017/03/senales-reglamentarias4.jpg"  alt=""></div>
-                               <h4>
-                                  <a href="" class="cartaproducto__titulo">Señalizacion Vertical</a> 
-                               </h4>
-                               <p>Descripcion del producto</p>
-                            </div> 
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-
-        <section class="obras" id="obras">
-            <div class="obras__principal">
-                <h4>Obras</h4>
-            </div>
-            <div class="contenedor__obras">
-                <ul class="filtrador__lista">
-                    <li class="list__items"><a href="">Tipo de obra</a></li>
-                    <li class="list__items"><a href="">Tipo de obra</a></li>
-                    <li class="list__items"><a href="">Tipo de obra</a></li>
-                    <li class="list__items"><a href="">Tipo de obra</a></li>
-                    <li class="list__items"><a href="">Tipo de obra</a></li>
-                </ul>
-                <div class="contenedorObras__resultados">
-                    <img src="http://revistavial.com//wp-content/uploads/1_594d02ef3ca34.jpg" alt="">
-                    <img src="https://revistavial.com/wp-content/uploads/2018/05/servicevial-edicionespecial23-2018-foto1.jpg" alt="">
-                    <img src="https://revistavial.com/wp-content/uploads/2019/05/20-largos-a%C3%B1os-en-la-vida-de-Service-Vial%C2%AE-edicionespecial25-2019-foto1.jpg" alt="">
-                </div>
-            </div>
-        </section>
-        <section id="contactos">
-            <div>
-               <h1>Contacto</h1> 
-            </div>
-            <div>
-                <hr>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26239.2926130839!2d-58.39361864364571!3d-34.70741013227633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33351f74b9f81%3A0x156f75b050432252!2sService%20Vial%20S.A.!5e0!3m2!1ses!2sar!4v1642136861580!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-            </div>
-            <div>
-                <br><i class="far fa-envelope"> contacto@gmail.com </i>
-                <i class="fas fa-phone-alt"> Numero de telefono </i>
-                <i class="fas fa-map-marker-alt"> Localización </i>
-            </div>
-            <div>
-                <form action="" method="get" enctype="text/plain">
-                    <fieldset>
-                        <legend>Información</legend>
-                        <div>
-                            <label for="userName">Nombre:</label><br>
-                            <input type="text" name="" id="" placeholder="Completa con tu nombre">
-                        </div>
-                        <div>
-                         <label for="userName">Apellido:</label><br>
-                         <input type="text" name="" id="" placeholder="Completa con tu apellido">
-                        </div>
-                        <div>
-                         <label for="City">Ciudad:</label><br>
-                         <input type="text" name="" id="" placeholder="Completa tu ciudad">
-                        </div>
-                        <div>
-                         <label for="Country">Nombre:</label><br>
-                         <input type="text" name="" id="" placeholder="Completa tu pais">
-                        </div>
-                        <div>
-                         <label for="email">Dirección email:</label><br>
-                         <input type="email" name="" id="" placeholder="Completa tu dirección email">
-                        </div>
-                        <div>
-                         <label for="numero_de_telefono">Telefono de contacto:</label><br>
-                         <input type="number" name="" id="" placeholder="Telefono de contacto">
-                        </div>
-                        <div>
-                         <label for="mensaje">Mensaje:</label><br>
-                         <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                        </div>
-                        <input type="submit" value="Enviar">
-                    </fieldset>
-                </form>
-            </div>
-        </section>
+        </div>
     </main>
     <footer>
         <div class="container__footer">
@@ -226,5 +96,6 @@
             <p>Todos los derechos reservados © 2022 <B>Service Vial s.a</B></p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
