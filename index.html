@@ -1,101 +1,335 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Vial Sociedad Anonima</title>
-    <link rel="icon" href="./servicevial_logo_chico.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Service Vial Sociedad Anonima</title>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <img src="./LOGO_SERV.png" alt="" width="150" height="74" class="d-inline-block align-text-top">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Productos y Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Obras</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+  
+  <main>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+    </style>
+    <header>
+      
+    <nav class="navbar navbar-expand-lg navbar-light py-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/imgsBrand/LOGO_SERV.png" alt="logo" class="d-inline-block align-text-top logo__nav "></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+            <ul class="navbar-nav text-center ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acercade">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#obras">Obras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <section class="inicio p-5 text-center" id="hero" style="background-image: url(./img/imgsInicio/inicioServicevial.jpg);">
+        <div class="container topmargin">
+              <div class="asdasd"><h1 class="texto__inicio">service vial <span class="text-warning">desde 1998</span></h1></div>
+              <p class="parrafo__inicio">observa nuestra propuesta</p>
+              <button type="button" class="btn btn-warning btn-lg">Ver mas</button>
             </div>
-          </nav>
-    <main>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="container-fluid">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-warning text-dark p-5 border-top border-5 border-dark">
+        <div class="contenedor__aviso">
+          <div class="contenedor__contenido">
+            <h4 class="aviso__texto">desea contactarnos?</h4>
+          </div>
+          <div class="contenedor__formulario text-center">
+            <button type="button" class="btn btn-light btn-lg boton__aviso">Completa el formulario</button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light text-dark p-5" id="acercade">
+        <div class="container">
+          <div class="row row-cols-2 contenedorTodo">
+            <div class="col contenedorImg">
+              <img src="./img/imgsInicio/SLIDE_2.jpg" class="figure-img img-fluid rounded imgimg" alt="...">
+              <figcaption class="figure-caption text-start mt-3"><i class="fas fa-map-marker-alt"></i><span class="
+                spanObras">Av. Hipólito Yrigoyen 2831</span></figcaption>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/Inicio/FONDO-TERRONE1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="h5__inicio">SERVICE VIAL DESDE 1998</h5>
-                  <p class="p__inicio">Some representative placeholder content for the first slide.</p>
+            <div class="col contenedorInfo">
+              <div class="contenedor__acercade">
+                <div class="empresaAcercade">
+                  <div class="subrayadoEmpresa"></div>
+                  <h3>Empresa</h3>
+                </div>
+                <div class="descripcionAcercade">                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aliquam maiores in minima nobis a, quibusdam
+                </div>
+                <div class="descripcionAcercade">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam nam mollitia quo sint cum odit culpa excepturi. Culpa, consectetur tenetur!</p>
+                </div>
+                <div class="descripcionAcercade">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam nam mollitia quo sint cum odit culpa excepturi. Culpa, consectetur tenetur!</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-f0f0f0 text-dark p-5" id="productos">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-2 me-5 marginstart">
+              <div class="contenedor__lista">
+                <div class="all__products">
+                  <h3 class="textoProducto">Todos los productos</h3>
+                  <p class="categoria mt-4">Categoria de productos</p>
+                </div>
+                <div class="listaColumn pt-2">
+                  <ul class="filtrador__lista">
+                    <li><a class="anchorProducts" href="">Defensas</a></li>
+                    <li class="pt-3" ><a class="anchorProducts" href="">Drenajes</a></li>
+                    <li class="pt-3" ><a class="anchorProducts" href="">Agro</a></li>
+                    <li class="pt-3" ><a class="anchorProducts" href="">Señalización vertical</a></li>
+                  </ul>
+                </div>
+                <div class="all__products">
+                  <p class="categoria mt-4">Categoria de servicios</p>
+                </div>
+                <div class="listaColumn">
+                  <ul class="filtrador__lista">
+                    <li><a class="anchorProducts" href="">Instalación</a></li>
+                    <li class="pt-3"><a class="anchorProducts" href="">Reparación</a></li>
+                    <li class="pt-3"><a class="anchorProducts" href="">Recuperación</a></li>
+                  </ul>
                 </div>
               </div>
+            </div>
+            <div class="col">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Defensas</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Drenajes</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Agro</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Señalización vertical</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Instalación</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Reparación</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75">
+                    <img src="./img/imgsProductos/6 terrone 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Reparación</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="" class="ver-mas"><span>Ver más</span><span><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
 
+      </section>
+      <section class="bg-light text-dark p-5" id="obras">
+        <div class="contenedor__obras">
+          <div class="obras__contenido">
+              <h4 class="Obras__titulo">Nuestras obras</h4>
+              <p class="Obras__desc">Visita la galeria de nuestras obras.</p>
+          </div>
+          <div class="contenedorObras__resultados">
+              <ul class="container__obras">
+                  <li class="obra__tipo">
+                      <div class="obras__imagenCont">
+                          <img class="imgObras" src="http://revistavial.com//wp-content/uploads/1_594d02ef3ca34.jpg" alt="">
+                      </div>
+                      <div class="obras__info">
+                          <h4 class="tituloObra">Titulo de Obra</h4>
+                          <p class="parrafoObras">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <i class="fas fa-map-marker-alt"></i><span class="
+                          spanObras">Localidad</span>
+                          <i class="fas fa-clock"></i><span class="spanObras">00/00/0000</span>
+                      </div>
+                  </li>
+                  <li class="obra__tipo">
+                      <div class="obras__imagenCont">
+                          <img class="imgObras" src="https://revistavial.com/wp-content/uploads/2018/05/servicevial-edicionespecial23-2018-foto1.jpg" alt="">
+                      </div>
+                      <div class="obras__info">
+                          <h4 class="tituloObra">Titulo de Obra<h4>
+                              <p class="parrafoObras">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <i class="fas fa-map-marker-alt"></i><span class="
+                              spanObras">Localidad</span>
+                              <i class="fas fa-clock"></i><span class="spanObras">00/00/0000</span>
+                      </div>
+                  </li>
+                  <li class="obra__tipo">
+                      <div class="obras__imagenCont">
+                          <img class="imgObras" src="https://revistavial.com/wp-content/uploads/2019/05/20-largos-a%C3%B1os-en-la-vida-de-Service-Vial%C2%AE-edicionespecial25-2019-foto1.jpg" alt="">
+                      </div>
+                      <div class="obras__info">
+                          <h4 class="tituloObra">Titulo de Obra</h4>
+                          <p class="parrafoObras">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <i class="fas fa-map-marker-alt"></i><span class="
+                          spanObras">Localidad</span>
+                          <i class="fas fa-clock"></i><span class="spanObras">00/00/0000</span>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+          <div class="btnObras">
+              <a href="#obras" class="button-obras">Ver todas nuestras obras</a>
+          </div>
+      </div>
+      </section>
+      <section class="bg-light text-dark p-5" id="contacto">
+        <div class="contenedor__contactos">
+          <div class="contacto__contenido">
+            <h4 class="contacto__titulo pb-5">Contacto</h4>
+          </div>
+          <div class="mapa__servicevial">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.632015087112!2d-58.390805248641776!3d-34.68923576944004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33351f74b9f81%3A0x156f75b050432252!2sService%20Vial%20S.A.!5e0!3m2!1ses!2sar!4v1645572577386!5m2!1ses!2sar" width="1500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="row-md margenes-contacto">
+            <div class="col">
+              <div class="contenedor__informacion">
+                <div class="subrayadoContactos"></div>
+                <h4 class="contactoTipo my-3">Administración</h4>
+                <i class="fa-solid fa-phone"></i><span class="spanContactos">+54 011 4249-1296/1016</span>
+              </div>
+              <div class="contenedor__informacion">
+                <h4 class="contactoTipo my-3">Oficinas</h4>
+                <i class="fa-solid fa-location-dot"></i><span class="spanContactos">Av. Hipólito Yrigoyen 2831</span>
+                <br>
+                <i class="fa-solid fa-location-dot"></i><span class="spanContactos">Abasto, Provincia de Buenos Aires</span>
+              </div>
+              <div class="contenedor__informacion">
+                <h4 class="contactoTipo my-3">Emails</h4>
+                <i class="fa-solid fa-envelope"></i><span class="spanContactos">servicevial@speedy.com.ar</span>
+                <i class="fa-solid fa-envelope"></i><span class="spanContactos">serv_vial@hotmail.com</span>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col mt-3">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="Name" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Empresa</label>
+                <input type="Name" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-warning">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="container__footer">
+        <div class="box__footer">
+            <div class="logo__footer">
+                <a href="" class="logo"><span>Service</span>Vial</a>
+            </div>
+            <div class="box__footer">
+                <a href=""><i class="far fa-map"></i>Av. Hipólito Yrigoyen 2831 - <br><span>Abasto, Provincia de Buenos Aires</span></a>
+                <a href=""><i class="fas fa-phone"></i>+54 011 4249-1296/1016</i></a>
+                <a href=""><i class="far fa-envelope-open"></i>servicevial@speedy.com.ar<br><span>serv_vial@hotmail.com</span></i></a>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container__footer">
-            <div class="box__footer">
-                <h2>Contacto rapido</h2>
-                <div class="box__footer">
-                    <a href=""><i class="far fa-map"></i>Av. Hipólito Yrigoyen 2831 <br><span>Abasto, Provincia de Buenos Aires</span></a>
-                    <a href=""><i class="fas fa-phone"></i>+54 9 011121212121</i></a>
-                    <a href=""><i class="far fa-envelope-open"></i>servicevial@contacto.com</i></a>
-                </div>
-            </div>
-            <div class="box__footer">
-                <h2>Compañia</h2>
-                <a href="#">Acerca de</a>
-                <a href="#">Productos</a>
-                <a href="#">Obras</a>
-                <a href="#">Contacto</a>
-            </div>
-            <div class="box__footer">
-                <h2>Documentaciónes y etica</h2>
-                <a href="#">Documentación</a>
-                <a href="#">Planoteca</a>
-                <a href="#">Normas</a>
-            </div>
+        <div class="box__footer">
+            <h2>Compañia</h2>
+            <a href="#acercade">Acerca de</a>
+            <a href="#productos">Productos</a>
+            <a href="#obras">Obras</a>
+            <a href="#contactos">Contacto</a>
         </div>
-        <div class="box__copyright">
-            <hr>
-            <p>Todos los derechos reservados © 2022 <B>Service Vial s.a</B></p>
+        <div class="box__footer">
+            <h2>Documentaciónes y etica</h2>
+            <a href="#">Documentación</a>
+            <a href="#">Planoteca</a>
+            <a href="#">Normas</a>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+    <div class="box__copyright">
+        <hr>
+        <p>Todos los derechos reservados © 2022 <B>Service Vial s.a</B></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
