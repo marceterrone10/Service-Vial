@@ -1,0 +1,21 @@
+header{
+    nav{
+        .logo__nav{
+            width: 120px;
+        }
+        .navbar{
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 1rem;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            color: #000;
+            opacity: 100%;
+            font-weight: 400;
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: rgb(247, 150, 150);
+            opacity: 100%;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+#productos{
+    .bg-f0f0f0{
+        background-color: #f0f0f0;
+    }
+    .marginstart{
+        margin-left: 7rem;
+    }    
+    .textoProducto{
+        font-size: 1.5rem;
+        color: #000;
+    }
+    .categoria{
+        color: #000;
+        font-size: 1rem;
+    }
+    .filtrador__lista{
+        list-style-type: none;
+        padding-left: 0rem;
+        .anchorProducts{
+            text-decoration: none;
+            font-size: 1rem;
+            color: #949494;
+            margin-top: 10px;
+        }
+        .anchorProducts:hover{
+            color: #b3b3b3;
+        }
+    }
+    .ver-mas span{
+        position: relative;
+        font-size: 12px;
+        color: red;
+    }
+    .ver-mas span::after{
+        content: "";
+        position: absolute;
+        background-color: red;
+        height: 1px;
+        width: 0;
+        left: 0;
+        bottom: -2px;
+        transition: 0.3s;
+    }
+    .ver-mas span:hover::after{
+        width: 100%;
+    }
+    
+    i.fas.fa-arrow-right{
+        margin-left: 5px;
+        content: "";
+    }
+
+}

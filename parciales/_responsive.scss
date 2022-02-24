@@ -1,0 +1,119 @@
+@media (max-width: 1440px) {
+    .imgObras{
+        width: 380px;
+    }
+    .obras__info{
+        width: 380px;
+    }
+    iframe{
+        width: 1100;
+        height: 250;
+    }
+}
+
+@media (max-width: 1024px) {
+    ul.container__obras{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+        list-style-type: none;
+    }
+    .contenedorObras__resultados{
+        align-self: center;
+    }
+    iframe{
+        width: 680;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: 1rem;
+    }
+    .topmargin{
+        margin-top: 10rem;
+    }
+    .contenedor__aviso{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor__formulario{
+        margin-top: 10px;
+    }
+    .contenedorTodo{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorImg{
+        align-self: center;
+        width: 100%;
+    }
+    .imgimg{
+        width: 100%;
+    }
+    .contenedor__acercade{
+        display: flex;
+        flex-direction: column;   
+    }
+    .contenedorInfo{
+        margin-top: 40px;
+        align-self: center;
+        width: 100%;
+    }
+    .marginstart{
+        margin-left: 0rem;
+    }
+    .imgObras{
+        width: 380px;
+    }
+    .obras__info{
+        width: 380px;
+    }
+    iframe{
+        width: 430;
+    }
+}
+@media (max-width: 425px){
+    .container__footer{
+        flex-direction: column;
+        align-content: center;
+    }
+    .box__footer{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    iframe{
+        width: 300;
+    }
+    .margenes-contacto{
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+}
+
+
+@media (max-width: 375px){
+    .imgObras{
+        width: 300px;
+    }
+    .obras__info{
+        width: 300px;
+    }
+}
+@media (max-width: 320px){
+    ul.container__obras{
+        padding: 0;
+    }
+    .button-obras{
+        font-size: 0.7rem;
+    }
+    iframe{
+        width: 250;
+    }
+    .contenedor__informacion{
+        width: 200px;
+    }
+}

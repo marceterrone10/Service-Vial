@@ -1,0 +1,43 @@
+#contacto{
+    .contenedor__contactos{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto__titulo{
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .mapa__servicevial{
+        align-self: center;
+    }
+    .margenes-contacto{
+        margin-top: 5rem;
+        margin-right: 7.5rem;
+        margin-left: 7.5rem;
+    }
+    .subrayadoContactos{
+        background-color: #ECDBBA;
+        height: 2px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    .contactoTipo{
+        font-size: 1.5rem;
+    }
+    i.fa-solid.fa-phone{
+        color: #ECDBBA;
+        margin-right: 10px;
+    }
+    i.fa-solid.fa-location-dot{
+        color: #ECDBBA;
+        margin-right: 10px;
+    }
+    i.fa-solid.fa-envelope{
+        color: #ECDBBA;
+        margin-right: 10px;
+    }
+    .contenedor__informacion{
+        width: 250px;
+    }
+}

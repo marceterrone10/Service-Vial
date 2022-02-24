@@ -1,0 +1,18 @@
+.contenedor__aviso{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .contenedor__contenido{
+        text-align: center;
+        align-self: center;
+        .aviso__texto{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1.8rem;
+        }
+    }
+    .boton__aviso{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        font-weight: 600;
+    }
+    
+}

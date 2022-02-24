@@ -1,0 +1,20 @@
+#acercade{
+    i.fas.fa-map-marker-alt{
+        margin-right: 5px;
+    }
+    .contenedorInfo{
+        .contenedor__acercade{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 1rem
+        }
+        .empresaAcercade{
+            .subrayadoEmpresa{
+                background-color: #000;
+                height: 2px;
+                width: 60px;
+                margin-bottom: 10px;
+            } 
+        }
+    }
+}
