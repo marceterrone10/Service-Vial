@@ -1,3 +1,6 @@
+$button-obras:#ECDBBA;
+$button-obras-hover:#d8c49b;
+
 #obras{
     .contenedor__obras{
         display: flex;
@@ -37,7 +40,7 @@
         i.fas.fa-map-marker-alt {
             font-size: 12px;
             margin-right: 5px;
-            color: #ECDBBA
+            color: $button-obras;
         }
         span.spanObras{
             font-size: 12px;
@@ -48,7 +51,7 @@
         i.fas.fa-clock{
             font-size: 12px;
             margin-right: 5px;
-            color: #ECDBBA
+            color: $button-obras;
         }
     }
     .btnObras{
@@ -58,7 +61,7 @@
         .button-obras{
             font-size: 16px;
             font-weight: 600;
-            background: #ECDBBA;
+            background: $button-obras;
             width: 250px;
             padding: 15px;
             text-align: center;
@@ -69,7 +72,7 @@
             transition: 0.25s;
         }
         .button-obras:hover{
-            background:#d8c49b;
+            background:$button-obras-hover;
             color: #161616;
         }
     }
