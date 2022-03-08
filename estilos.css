@@ -122,7 +122,6 @@ i.fas.fa-map-marker-alt{
 .marginstart{
     margin-left: 7rem;
 }
-
 .ver-mas span{
     position: relative;
     font-size: 12px;
@@ -236,6 +235,31 @@ i.fas.fa-clock{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.h4__masobras{
+    font-size: 2rem;
+    text-align: center;
+}
+
+ul.masObras__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    list-style-type: none;
+}
+.img_masobras{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%);
+}
+.parrafoMasObras{
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 500;
+    width: 350px;
 }
 
 .contenedor__contactos{
@@ -379,6 +403,16 @@ footer{
     iframe{
         width: 680;
     }
+    li.masObras__lista{
+        width: 300px;
+    }
+    .img_masobras{
+        width: 250px;
+    }
+    .parrafoMasObras{
+        width: 250px;
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -429,6 +463,16 @@ footer{
     iframe{
         width: 430;
     }
+    li.masObras__lista{
+        width: 250px;
+    }
+    .img_masobras{
+        width: 180px;
+    }
+    .parrafoMasObras{
+        width: 180px;
+        font-size: 0.6rem;
+    }
 }
 @media (max-width: 425px){
     .container__footer{
@@ -445,6 +489,24 @@ footer{
     .margenes-contacto{
         margin-right: 0;
         margin-left: 1rem;
+    }
+    ul.masObras__container{
+        flex-direction: column;
+        align-content: center;
+    }
+    li.masObras__lista{
+        width: 300px;
+        align-self: center;
+    }
+    .img_masobras{
+        width: 300px;
+    }
+    .parrafoMasObras{
+        width: 300px;
+        font-size: 0.8rem;
+    }
+    h4.h4__masobras{
+        font-size: 1.4rem;
     }
 }
 
